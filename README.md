@@ -1,110 +1,220 @@
-<h1 align="center">📊 Power BI Retail Sales Dashboard</h1>
+# 📊 Power BI Retail Sales Dashboard
 
-<p align="center">
-Interactive business intelligence dashboard analyzing retail sales, customer behavior, product performance, transactions, and AI-driven insights.
-</p>
-
-<p align="center">
+> **Interactive Business Intelligence Solution built with Power BI to analyze retail sales, customer behavior, product performance, and AI-driven business insights.**
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/DAX-Data%20Analysis%20Expressions-blue?style=for-the-badge)
-![Data Modeling](https://img.shields.io/badge/Data%20Modeling-Star%20Schema-orange?style=for-the-badge)
-![Business Intelligence](https://img.shields.io/badge/Business%20Intelligence-Analytics-green?style=for-the-badge)
-
-</p>
+![DAX](https://img.shields.io/badge/DAX-Data%20Analysis-blue?style=for-the-badge)
+![Business Intelligence](https://img.shields.io/badge/Business-Intelligence-success?style=for-the-badge)
+![Data Modeling](https://img.shields.io/badge/Data-Modeling-orange?style=for-the-badge)
 
 ---
 
-## 📌 Project Overview
+# 📋 Executive Summary
 
-This project presents an interactive Power BI report developed to analyze retail sales, customers, products, transactions, and inventory-related business performance.
+Retail organizations generate thousands of transactions that can make it difficult to identify meaningful trends without effective reporting.
 
-The dashboard transforms relational retail data into clear KPIs, visual trends, detailed transaction reporting, and AI-assisted insights that support business decision-making.
+This project transforms raw retail sales data into an interactive Power BI dashboard that enables decision-makers to monitor key performance indicators, analyze customer purchasing behavior, evaluate product performance, and uncover business insights using AI-powered analytics.
 
-The project was completed through the **Udacity Data Analyst Nanodegree**.
+The dashboard combines data modeling, DAX calculations, interactive visualizations, drill-through reporting, and Power BI AI visuals to support informed business decisions.
+
+> **This project was completed as part of the Udacity Data Analyst Nanodegree and demonstrates practical Business Intelligence and data visualization skills.**
 
 ---
 
-## 🎯 Business Questions
+# 🏢 Business Problem
 
-The report was designed to answer questions such as:
+Retail managers need fast access to reliable information to answer questions such as:
 
-- Which products generate the most sales?
-- Which customer age groups contribute the most revenue?
+- Which products generate the most revenue?
+- Which customer segments spend the most?
 - Which product categories perform best?
-- How do quantity and total sales relate?
-- What factors are associated with higher transaction amounts?
-- How can users review individual sales transactions?
-- Which products and customer segments deserve greater business attention?
+- Which transactions require further investigation?
+- What factors influence higher sales amounts?
+
+Without centralized reporting, answering these questions often requires manually reviewing spreadsheets and operational reports.
+
+This dashboard provides an interactive solution that enables business users to quickly explore data and make informed decisions.
 
 ---
 
-## 📊 Dashboard Pages
+# 👥 Intended Users
 
-### Landing Page
+This dashboard is designed for:
 
-Provides report navigation and an overview of the top-selling product.
-
-### Customer Insights
-
-Analyzes customer counts and completed sales by age group while highlighting major KPIs.
-
-### Product Performance
-
-Uses a scatter plot and detailed product table to compare quantity, total sales, product category, and individual product performance.
-
-### Sales Transactions
-
-Provides transaction-level details with filters for order status and product category.
-
-### AI Sales Insights
-
-Uses Power BI AI visuals, including a decomposition tree and Key Influencers, to identify factors associated with increased sales amounts.
+- Executive Leadership
+- Sales Managers
+- Operations Managers
+- Marketing Teams
+- Business Analysts
 
 ---
 
-## 🧱 Data Model
+# 🎯 Project Objectives
 
-The report uses a relational data model containing:
+The primary objectives of this project were to:
 
-- `FactOrders`
-- `DimCustomer`
-- `DimProduct`
-- `StgInventory`
-
-These tables connect customer, product, inventory, and transaction data to support reporting and filtering.
-
----
-
-## 📈 Key Findings
-
-- The dataset contains approximately **1,000 customers**.
-- The **Apple iPad 10th Generation** was identified as the best-selling product.
-- Apple iPad sales reached approximately **$756,116**.
-- Customers in their thirties generated the highest completed sales, at approximately **$1.41 million**.
-- Electronics generated approximately **$2.20 million**, making it the leading product category by total amount.
-- Power BI's Key Influencers visual identified product, category, unit price, and transaction quantity as major drivers of higher sales amounts.
+- Build an interactive Power BI dashboard
+- Design a relational data model
+- Develop DAX measures and KPIs
+- Create business-friendly visualizations
+- Enable interactive filtering and drill-through analysis
+- Use AI visuals to uncover sales insights
+- Present actionable business findings
 
 ---
 
-## 🛠 Skills Demonstrated
+# 📊 Dashboard Overview
 
-- Power BI report development
-- Data modeling and table relationships
-- Star-schema concepts
-- DAX measures and calculated fields
-- KPI development
-- Data visualization
-- Drill-through reporting
-- Slicers and filters
-- Bookmark-based navigation
-- Decomposition tree analysis
-- Key Influencers analysis
-- Business intelligence storytelling
+The report consists of multiple interactive pages.
+
+## 🏠 Landing Page
+
+- Dashboard navigation
+- Project overview
+- Featured best-selling product
 
 ---
 
-## 📂 Repository Files
+## 👥 Customer Insights
+
+Analyzes customer purchasing behavior through:
+
+- Customer count
+- Completed sales
+- Sales by age group
+- Interactive KPI cards
+
+---
+
+## 📦 Product Performance
+
+Compares products using:
+
+- Scatter Plot
+- Quantity Sold
+- Total Sales
+- Product Categories
+- Detailed product table
+
+---
+
+## 🧾 Sales Transactions
+
+Provides transaction-level analysis including:
+
+- Individual orders
+- Product information
+- Order status
+- Category filtering
+- Drill-through functionality
+
+---
+
+## 🤖 AI Sales Insights
+
+Uses Power BI AI visuals including:
+
+- Decomposition Tree
+- Key Influencers
+
+These visuals help identify factors associated with higher sales amounts.
+
+---
+
+# 🧱 Data Model
+
+The dashboard is built using a relational data model consisting of:
+
+- FactOrders
+- DimCustomer
+- DimProduct
+- StgInventory
+
+The model enables efficient filtering, accurate aggregations, and scalable reporting.
+
+---
+
+# 📈 Key Performance Indicators
+
+The dashboard tracks:
+
+- Total Sales
+- Total Customers
+- Completed Sales
+- Product Revenue
+- Quantity Sold
+- Sales by Category
+- Customer Age Group Performance
+- Transaction Details
+
+---
+
+# 💡 Key Business Insights
+
+Dashboard analysis revealed several meaningful business insights:
+
+- Electronics generated the highest overall revenue.
+- Certain customer age groups contributed significantly more sales than others.
+- A small number of products accounted for a large percentage of total revenue.
+- AI visuals identified product selection, quantity purchased, and pricing as major factors influencing higher sales values.
+- Transaction-level reporting allows users to quickly investigate individual purchases.
+
+---
+
+# 💼 Business Recommendations
+
+Based on the analysis, organizations could consider:
+
+- Increasing inventory for consistently high-performing products.
+- Targeting marketing campaigns toward the highest-value customer segments.
+- Monitoring lower-performing categories for promotional opportunities.
+- Using transaction-level reports to investigate unusual sales activity.
+- Continuing to leverage AI Insights to discover additional revenue opportunities.
+
+---
+
+# 🛠 Skills Demonstrated
+
+### Business Intelligence
+
+- Dashboard Design
+- KPI Development
+- Executive Reporting
+- Business Storytelling
+
+### Power BI
+
+- Interactive Dashboards
+- Drill-through Reports
+- Bookmarks
+- Navigation
+- Slicers
+- AI Visuals
+
+### Data Modeling
+
+- Star Schema Concepts
+- Table Relationships
+- Dimension & Fact Tables
+
+### DAX
+
+- Measures
+- Calculated Columns
+- Aggregations
+- Business Metrics
+
+### Analytics
+
+- Customer Analysis
+- Product Performance
+- Sales Analysis
+- Business Insights
+- Decision Support
+
+---
+
+# 📁 Repository Structure
 
 ```text
 powerbi-retail-sales-dashboard/
@@ -116,36 +226,57 @@ powerbi-retail-sales-dashboard/
 
 ---
 
-## 📥 View or Download the Project
+# 📥 Project Files
 
-- [View the Complete Dashboard Report](Udacity_Power_BI.pdf)
-- [Download the Power BI Project File](Udacity_Power_BI.pbix)
+### Power BI Desktop File
 
-> The PDF provides a preview of all dashboard pages. The `.pbix` file requires Microsoft Power BI Desktop.
+**Udacity_Power_BI.pbix**
 
----
-
-## 💼 Business Value
-
-This report demonstrates how retail organizations can use business intelligence to:
-
-- Identify high-performing products and customer groups
-- Track sales KPIs
-- Review transaction-level activity
-- Detect factors associated with larger purchases
-- Support sales, inventory, and marketing decisions
-- Provide decision-makers with interactive reporting
+Contains the complete interactive Power BI report.
 
 ---
 
-## 👤 Author
+### Dashboard Report
 
-### Michael Jon-Baptiste
+**Udacity_Power_BI.pdf**
+
+Provides a preview of every dashboard page.
+
+---
+
+# 🎓 Technologies Used
+
+- Power BI Desktop
+- DAX
+- Power Query
+- Data Modeling
+- Business Intelligence
+- Data Visualization
+
+---
+
+# 👨‍💻 Author
+
+## Michael Jon-Baptiste
 
 **Data Analyst**
 
-SQL • Python • Power BI • Tableau • Excel • Google Sheets
+### Technical Skills
+
+- SQL
+- Python
+- Power BI
+- Tableau
+- Excel
+- Google Sheets
+- Git & GitHub
 
 ---
 
-⭐ Building analytics projects that transform data into practical business insights.
+## 📬 Connect
+
+GitHub: **https://github.com/Rozaay12**
+
+---
+
+⭐ **Thank you for viewing this project. Feedback and suggestions are always welcome.**

@@ -127,6 +127,6 @@ Power BI Desktop · DAX · Power Query · Data Modeling · Business Intelligence
 **Michael Jon-Baptiste** — Data Analyst
 SQL · Python · Power BI · Tableau · Excel · Git
 
-🔗 GitHub: https://github.com/Rozaay12 · LinkedIn: [FILL IN]
+🔗 GitHub: https://github.com/Rozaay12 · 💼 [LinkedIn](https://www.linkedin.com/in/michael-jon-baptiste-b63001170)
 
 ⭐ *Feedback and suggestions are always welcome.*
